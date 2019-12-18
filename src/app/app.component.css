@@ -1,0 +1,55 @@
+header{
+    background-color: wheat;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0.5%;
+}
+
+
+.base {
+    margin-top: 5vh;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.maindisplay {
+    background-color: white;
+    height: 25vh;
+    padding: 5%;
+    font-size: 4rem;
+    font-style: bold;
+    border: black;
+}
+
+.keypad {
+    height: calc(200% / 3);
+}
+
+.keys {
+    margin: 0;
+    height: 20%;
+    padding: 0.5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clearkey {
+    color: red;
+    background: black;
+}
+
+.equalkey {
+    color: white;
+    background-color: red; 
+}
+
+.numkey {
+    color: black;
+    background-color: white; 
+}
+
+.opkey {
+    background-color: white; 
+}
